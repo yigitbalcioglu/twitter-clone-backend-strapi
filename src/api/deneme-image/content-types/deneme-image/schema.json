@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deneme_images",
+  "info": {
+    "singularName": "deneme-image",
+    "pluralName": "deneme-images",
+    "displayName": "DenemeImage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "denemeimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "num": {
+      "type": "integer"
+    }
+  }
+}

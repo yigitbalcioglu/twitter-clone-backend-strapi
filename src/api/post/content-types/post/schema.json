@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Posts",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tweet": {
+      "type": "text"
+    },
+    "tweetsId": {
+      "type": "uid",
+      "targetField": "tweet"
+    },
+    "ownersId": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "parent": {
+      "type": "string"
+    }
+  }
+}
